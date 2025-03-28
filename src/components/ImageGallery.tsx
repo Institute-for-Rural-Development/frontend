@@ -28,9 +28,13 @@ export default function ImageGallery() {
   const navigateImage = (direction: 'next' | 'prev') => {
     if (selectedImage === null) return;
 
+    // Prevent navigating out of bounds
+    if (direction === 'next' && selectedImage === galleryImages.length - 1) return;
+    if (direction === 'prev' && selectedImage === 0) return;
+
     const newIndex = direction === 'next' 
-      ? (selectedImage + 1) % galleryImages.length
-      : (selectedImage - 1 + galleryImages.length) % galleryImages.length;
+      ? selectedImage + 1
+      : selectedImage - 1;
     
     setSelectedImage(newIndex);
   };

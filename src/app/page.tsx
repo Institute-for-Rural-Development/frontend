@@ -2,11 +2,10 @@ import ImageGallery from '@/components/ImageGallery'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-100">
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold text-center mb-8">Gallery</h1>
-        <ImageGallery />
-      </div>
+    <main>      
+      <a href="/gallery" className="text-3xl font-bold text-white">
+        Go to gallery
+      </a>
     </main>
   )
 }
