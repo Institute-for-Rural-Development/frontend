@@ -1,21 +1,12 @@
-import About from "./_sections/About";
-import Events from "./_sections/Events";
-import HeroSection from "./_sections/Hero";
-import JoinsUs from "./_sections/JoinsUs";
-import Newsletter from "./_sections/Newsletter";
-import News from "./_sections/News"
-import Partners from "./_sections/Partners";
+import ImageGallery from '@/components/ImageGallery'
 
 export default function Home() {
-  return(
-    <div className="homePageWrapper">
-      <HeroSection />
-      <About />
-      <Events />
-      <JoinsUs />
-      <Partners/>
-      <News/>
-      <Newsletter />
-    </div>
-  );
+  return (
+    <main className="min-h-screen bg-gray-100">
+      <div className="container mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold text-center mb-8">Gallery</h1>
+        <ImageGallery />
+      </div>
+    </main>
+  )
 }
