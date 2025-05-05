@@ -8,14 +8,14 @@ https://jira.atlassian.net/browse/
 
 ## Summary of Changes
 
-- [x]
-- []
--
+- [x] Code changes are tested and verified.
+- [ ] Documentation is updated as needed.
+- [ ] Relevant Jira ticket is linked and updated.
 
 ## Additional implementation details (OPTIONAL)
 
-- [x]
-- []
+- [x] All tests pass locally.
+- [ ] Peer review is completed.
 
 **Requests**
 
