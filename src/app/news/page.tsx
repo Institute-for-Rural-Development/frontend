@@ -49,11 +49,11 @@ function Page() {
   ];
 
   return (
-    <section className="w-full mt-[10rem]">
-      <div className="max-w-[1280px] mx-auto px-6 md:px-8">
+    <section className="w-full sec1-mt sec-mb">
+      <div className="layout-wide mx-auto px-6 md:px-8">
         <div>
           <h2>News, Stories, and Blogs</h2>
-          <p className="!text-[1.6rem] max-w-[70ch]">
+          <p className="dsctext max-w-[70ch]">
             Latest news and updates on rural empowerment initiatives, community
             leadership programs, and sustainable development efforts across
             Nepal&apos;s rural regions.
@@ -74,7 +74,7 @@ function Page() {
               </div>
               <div className="p-6">
                 <h3>{news.title}</h3>
-                <p className="text-[#505050]">{news.meta_disc}</p>
+                <p className="text-[#505050] dsctext">{news.meta_disc}</p>
               </div>
             </div>
           ))}
