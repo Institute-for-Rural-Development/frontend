@@ -18,6 +18,7 @@ export default function ImageGallery() {
   const navigateImage = (direction: "next" | "prev") => {
     if (selectedImage === null) return;
 
+    // Prevent navigating out of bounds
     if (
       direction === "next" &&
       selectedImage === galleryImages.galleryImages.length - 1
@@ -31,6 +32,7 @@ export default function ImageGallery() {
     setSelectedImage(newIndex);
   };
 
+  // Keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (selectedImage !== null) {
@@ -54,6 +56,7 @@ export default function ImageGallery() {
 
   return (
     <div className="container mx-auto py-8">
+      {/* Gallery Grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {galleryImages.galleryImages.map((image, index) => (
           <div

@@ -1,9 +1,6 @@
 
 @import "tailwindcss";
  
-
-
-
 :root {
   --background: #ffffff;
   --text-color: #0f0f0f;
@@ -16,7 +13,8 @@
   --p-font-size: 1.4rem;
 
   --sub-heading-font-size:1.6rem;
-  
+  --section-spacing: 5rem;
+  --section-header-size: 3.3rem;
 }
 
 body {
@@ -27,7 +25,8 @@ body {
 *,
 *::before,
 *::after {
- 
+  /* margin: 0; */
+  /* padding: 0; */
   box-sizing: border-box;
 }
 
@@ -46,8 +45,14 @@ button {
   border: none;
   font-family: inherit;
 }
+p {
+  font-size: var(--p-font-size);
+  font-family: var(--font-source-sans-pro);
+}
 
-
+.homePageWrapper > * + * {
+  margin-top: var(--section-spacing) !important;
+}
 h1,
 h2,
 h3,
@@ -78,43 +83,4 @@ footer{
 input{
   outline: none;
   border: none;
-}
-
-
-
-
-/*Classes for the website's layout and spacing consistency*/
-
-.layout-wide{   /* page width for main container/div/section */
-  max-width: 1280px;
-}
-.dsctext{    /* description text size */
-  font-size: 1rem;
-}
-.sec1-mt {   /* this is for the first section of a page*/
-  margin-top: 6rem;
-}
-.sec1-mb {   
-  margin-bottom: 6rem;
-}
-.sec-mt {   
-  margin-top: 3rem;
-}
-.sec-mb {   
-  margin-bottom: 3rem;
-}
-
-@media (min-width: 768px) {
-  .sec-mt {
-    margin-top: 5rem;
-  }
-  .sec-mb {   
-    margin-bottom: 5rem;
-  }
-  .sec1-mt {
-    margin-top: 10rem;
-  }
-  .sec1-mb {
-    margin-bottom: 8rem;
-  }
 }
