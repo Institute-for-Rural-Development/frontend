@@ -49,22 +49,22 @@ const Footer = () => {
             <div className="flex flex-col gap-2">
               {/* ... area items */}
               <ul>
-                <li className="!text-[1.2rem] !text-[#fefefe] pb-2">
+                <li className="dsctext !text-[#fefefe] pb-2">
                   <Link href="/about"> About</Link>
                 </li>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/events"> Events</Link>
                 </li>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/news"> News</Link>
                 </li>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/involve"> Involve</Link>
                 </li>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/gallery"> Gallery</Link>
                 </li>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="#"> Donate</Link>
                 </li>
               </ul>
@@ -78,15 +78,15 @@ const Footer = () => {
             </h3>
             <div className="flex flex-col gap-2">
               <ul>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/areas-of-work/agriculture">Agriculture</Link>
                 </li>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/areas-of-work/culture-and-heritage">
                     Culture & Heritage
                   </Link>
                 </li>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/areas-of-work/tourism">Tourism</Link>
                 </li>
               </ul>
@@ -100,25 +100,25 @@ const Footer = () => {
             </h3>
             <div className="flex flex-col gap-2">
               <ul>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/initiative/education-reform">
                     Education Reform
                   </Link>
                 </li>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/initiative/ex-l">EXL</Link>
                 </li>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/initiative/literacy-course-package">
                     Literacy Course Package
                   </Link>
                 </li>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/initiative/local-curriculum-development">
                     Local Curriculum Development
                   </Link>
                 </li>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/initiative/maitri">Maitri</Link>
                 </li>
               </ul>
@@ -132,12 +132,12 @@ const Footer = () => {
             </h3>
             <div className="flex flex-col gap-2">
               <ul>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/flagship-programs/conscious-village-initiative">
                     Conscious Village
                   </Link>
                 </li>
-                <li className="!text-[1.2rem] !text-[#fefefe]  pb-2">
+                <li className="dsctext !text-[#fefefe]  pb-2">
                   <Link href="/flagship-programs/one-app-one-tap">
                     One App One Tap
                   </Link>

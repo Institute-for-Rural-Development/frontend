@@ -2,23 +2,21 @@ import Image from "next/image";
 
 export default function AboutPage() {
   return (
-    <div className="mt-[10rem] max-w-[1280px] mx-auto pl-[1rem] pr-[1rem]">
-      {/* About Section */}
+    <div className="sec1-mt layout-wide mx-auto pl-[1rem] pr-[1rem]">
        
         <h1>Institute for Rural Development</h1>
-        <p className="!text-[1.6rem] max-w-[70ch] mb-16">
+        <p className="dsctext max-w-[70ch] mb-16">
           Institute for Rural Development (IRD) is a non-for-profit organization
           registered under the Government of Nepal. IRD acts as a platform to
           channelize and direct knowledge, resources, and authorities to drive
           holistic development in the grassroot level.
         </p>
 
-        {/* Our Mission Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-28">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-24">
           <div className="flex flex-col gap-4 order-2 md:order-1">
             <h2>Our Mission</h2>
 
-            <p className="!text-[1.6rem]">
+            <p className="dsctext">
               Empowering and guiding the local leadership, youths, and
               communities to build the foundation for sustainable rural
               development rooted in Nepal&apos;s ethos
@@ -34,7 +32,6 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Our Vision Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-28">
           <div className="flex justify-center">
             <Image
@@ -47,7 +44,7 @@ export default function AboutPage() {
           <div className="flex flex-col gap-4">
             <h2>Our Vision</h2>
 
-            <p className="!text-[1.6rem]">
+            <p className="dsctext">
               Develop IRD as an open and collaborative platform for all
               individuals/groups who believe in the positive transformation of
               Nepal at its fundamental level

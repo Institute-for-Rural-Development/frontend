@@ -15,10 +15,10 @@ const partners = [
 function Partners() {
   return (
     <section className="w-full bg-[#eeeeee] py-16">
-      <div className="max-w-[1280px] mx-auto px-6 space-y-[3rem]">
+      <div className="layout-wide mx-auto px-6 space-y-[3rem]">
         <div>
           <h2>Our Partners</h2>
-          <p className="!text-[1.6rem] max-w-[70ch]">
+          <p className="dsctext max-w-[70ch]">
             We collaborate with dedicated partners to drive sustainable rural
             development and create lasting impact
           </p>
