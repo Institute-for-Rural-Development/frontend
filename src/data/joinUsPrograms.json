@@ -2,31 +2,31 @@
     "joinUsPrograms":[
         {
             "programName":"Volunteer",
-            "programLink":"#",
+            "programLink":"/home",
             "programImage":"/assets/images/involve/volunteer.jpg",
             "programDesc":"Volunteering with IRD is a chance to contribute, learn, and grow while working alongside inspiring individuals dedicated to transforming Nepal’s future."
         },
         {
             "programName":"Fellowship",
-            "programLink":"#",
+            "programLink":"/home",
             "programImage":"/assets/images/involve/chance-change.jpg",
             "programDesc":"Fellowship is an opportunity for passionate individuals to engage in transformative projects that drive sustainable development in Nepal. Through mentorship, hands-on experience, and collaboration, fellows will gain the skills and knowledge to create meaningful change."
         },
         {
             "programName":"Internships",
-            "programLink":"#",
+            "programLink":"/home",
             "programImage":"/assets/images/involve/internship.jpg",
             "programDesc":"The IRD Internship offers students and young professionals the opportunity to immerse themselves in impactful projects in Nepal. As an intern, you will gain practical experience, work alongside experts, and contribute to meaningful change in communities. "
         },
         {
             "programName":"Be an ambassador",
-            "programLink":"#",
+            "programLink":"/home",
             "programImage":"/assets/images/involve/ambassador.jpg",
             "programDesc":"Join IRD as an ambassador and be the voice of change in your community! As an ambassador, you will help spread awareness about IRD’s mission, engage with local and global networks, and inspire others to take action for sustainable development in Nepal."
         },
         {
             "programName":"Village Representative",
-            "programLink":"#",
+            "programLink":"/home",
             "programImage":"/assets/images/involve/village-representative.jpg",
             "programDesc":"As an IRD Village Representative, you act as a liaison between IRD and the local population, you will help identify challenges, facilitate programs, and ensure that resources and opportunities reach those who need them most."
         }

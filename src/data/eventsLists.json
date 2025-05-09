@@ -1,10 +1,9 @@
 {
   "eventLists": [
     {
-      "eventName": " IRD General Info Session (Virtual)",
+      "eventName": "IRD General Info Session (Virtual)",
       "eventImage":"/assets/images/events/student-club.webp",
       "eventDate": "Apr 8, 2025 - Apr 18, 2025",
-      "eventTag": "info",
       "registerLink": "#",
       "eventDisc": "Join us for a virtual information session to learn about the Institute for Rural Development (IRD) and its mission of empowering local leadership and communities to foster sustainable rural development rooted in Nepal's values and traditions."
     }

@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+    --color-card-bg: #f3f3f3; 
+  }

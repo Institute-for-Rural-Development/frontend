@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/ui/Navbar.jsx", "src/components/Icons.jsx", "src/app/areas-of-work/agriculture/page.tsx", "src/app/areas-of-work/tourism/page.tsx", "src/app/areas-of-work/entrepreneurship/page.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/ui/Navbar.jsx", "src/components/Icons.jsx", "src/app/areas-of-work/agriculture/page.tsx", "src/app/areas-of-work/tourism/page.tsx", "src/app/areas-of-work/entrepreneurship/page.tsx", "src/ui/EventCard.tsx"],
   "exclude": ["node_modules"]
 }

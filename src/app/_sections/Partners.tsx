@@ -9,41 +9,45 @@ const partners = [
   { id: 3, logo: "/assets/images/logo2.png", name: "Partner 3" },
   { id: 4, logo: "/assets/images/logo2.png", name: "Partner 4" },
   { id: 5, logo: "/assets/images/logo2.png", name: "Partner 5" },
-  { id: 6, logo: "/assets/images/logo2.png", name: "Partner 6" },
+  // { id: 6, logo: "/assets/images/logo2.png", name: "Partner 6" },
+  // { id: 7, logo: "/assets/images/logo2.png", name: "Partner 6" },
+  // { id: 8, logo: "/assets/images/logo2.png", name: "Partner 6" },
+  // { id: 9, logo: "/assets/images/logo2.png", name: "Partner 6" },
+  // { id: 10, logo: "/assets/images/logo2.png", name: "Partner 6" },
+  // { id: 11, logo: "/assets/images/logo2.png", name: "Partner 6" },
+  // { id: 12, logo: "/assets/images/logo2.png", name: "Partner 6" },
 ];
 
 function Partners() {
   return (
-    <section className="w-full bg-[#eeeeee] py-16">
-      <div className="max-w-[1280px] mx-auto px-6 space-y-[3rem]">
-        <div>
-          <h2>Our Partners</h2>
-          <p className="!text-[1.6rem] max-w-[70ch]">
-            We collaborate with dedicated partners to drive sustainable rural
-            development and create lasting impact
-          </p>
-        </div>
-        <div className="w-full flex flex-wrap justify-between items-center">
-          {partners.map((partner) => (
-            <div
-              key={partner.id}
-              className="w-32 h-32 md:w-40 md:h-40 relative grayscale hover:grayscale-0 transition-all duration-300"
-            >
-              <Image
-                src={partner.logo}
-                alt={partner.name}
-                layout="fill"
-                objectFit="cover"
-                priority
-              />
-            </div>
-          ))}
-        </div>
-        <div className="text-center">
-          <Link href="/involve">
-            <Button size="large">Become a Partner</Button>
-          </Link>
-        </div>
+    <section className="">
+      <div>
+        <h2>Our Partners</h2>
+        <p className="">
+          We collaborate with dedicated partners to drive sustainable rural
+          development and create lasting impact
+        </p>
+      </div>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+        {partners.map((partner) => (
+          <div
+            key={partner.id}
+            className="flex flex justify-center items-center "
+          >
+            <Image
+              src={partner.logo}
+              alt={partner.name}
+              width={150}
+              height={150}
+            />
+          </div>
+        ))}
+      </div>
+
+      <div className="">
+        <Link href="/involve">
+          <Button size="large">Become a Partner</Button>
+        </Link>
       </div>
     </section>
   );

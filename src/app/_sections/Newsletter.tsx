@@ -1,83 +1,59 @@
-import React from "react";
-import styles from "@/styles/sections/newsletter.module.css";
-import Image from "next/image";
-import Link from "next/link";
 const Newsletter = () => {
   return (
-    <section className={styles.newsletterSection}>
-      <div className={styles.container}>
-        <div className={styles.organizationLogo}>
-          <Image
-            src="/assets/images/IRD_logo_500x250.png"
-            width={500}
-            height={500}
-            alt="IRD Logo"
-            className={styles.logo}
-          />
-        </div>
-
-        <div className={styles.newsletterContent}>
-          <div className={styles.newsletterHeading}>
-            <h2>
-              Subscribe to our
-              <br className={styles.desktopBreak} /> newsletter
-            </h2>
-          </div>
-
-          <div className={styles.contentWrapper}>
-            <form className={styles.subscriptionForm}>
-              <input
-                className={styles.inputField}
-                type="text"
-                placeholder="First Name"
-                aria-label="First Name"
-              />
-              <input
-                className={styles.inputField}
-                type="text"
-                placeholder="Last Name"
-                aria-label="Last Name"
-              />
-
-              <input
-                className={`${styles.inputField} ${styles.emailField}`}
-                type="email"
-                placeholder="Email Address"
-                aria-label="Email Address"
-              />
-              <button type="submit" className={styles.subscribeButton}>
-                Subscribe
-              </button>
-            </form>
-
-            <div className={styles.contactInfo}>
-              <p>Panchakanya-1, Nuwakot, NP</p>
-              <p>contact@ird.com.np</p>
-              <p> +977 9843504464</p>
-              <div className={styles.socialMediaLinks}>
-                <p>
-                  <Link
-                    href="https://www.facebook.com/profile.php?id=61570984090298"
-                    target="_blank"
-                  >
-                    FB
-                  </Link>
+    <div className="">
+      <div className="">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="order-2 lg:order-1">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <h3 className="">Weekly articles</h3>
+                <p className="">
+                  Non laboris consequat cupidatat laborum magna. Eiusmod non
+                  irure cupidatat duis commodo amet.
                 </p>
-                <p>
-                  <Link
-                    href="https://www.instagram.com/ird.nepal/"
-                    target="_blank"
-                  >
-                    IN
-                  </Link>
+              </div>
+              <div>
+                <h3 className="">No spam</h3>
+                <p className="">
+                  Officia excepteur ullamco ut sint duis proident non
+                  adipisicing. Voluptate incididunt anim.
                 </p>
               </div>
             </div>
           </div>
+
+          {/* Right side - Form */}
+          <div className="order-1 lg:order-2">
+            <h2 className="">Subscribe to our newsletter</h2>
+            <p className="">
+              Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing
+              velit quis.
+            </p>
+
+            <form>
+              <div className="grid grid-cols-1 sm:grid-cols-2">
+                <input
+                  type="text"
+                  placeholder="Full name"
+                  required
+                  className="px-3 py-2"
+                />
+                <input
+                  type="email"
+                  placeholder="Email address"
+                  required
+                  className="px-3 py-2"
+                />
+              </div>
+              <button type="submit" className="w-full font-medium">
+                Subscribe
+              </button>
+            </form>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
   );
-};
+}
 
-export default Newsletter;
+export default Newsletter

@@ -1,0 +1,51 @@
+{
+   "news": [{
+      "id": 1,
+      "image": "/assets/images/news/news1.png",
+      "title": "Gramkranti Begins",
+      "meta_disc": "IRD launches Conscious Village Initiative to empower rural Nepal sustainably.",
+      "link": "#",
+      "description": "Learn how IRD is initiating a transformative Conscious Village Initiative for sustainable rural development in Nepal."
+    },
+    {
+      "id": 2,
+      "image": "/assets/images/news/news2.png",
+      "title": "One Tap to Empower",
+      "meta_disc": "IRD's One App, One Tap bridges rural Nepal's digital divide.",
+      "link": "#",
+      "description": "Discover how IRD's technology is narrowing the digital divide across rural Nepal with a single app."
+    },
+    {
+      "id": 3,
+      "image": "/assets/images/news/news3.png",
+      "title": "Farming Goes Future",
+      "meta_disc": "IRD boosts Nepalese agriculture with agroforestry, digital tools, and finance.",
+      "link": "#",
+      "description": "Explore IRD's efforts in modernizing agriculture through innovative agroforestry and tech solutions."
+    },
+    {
+      "id": 4,
+      "image": "/assets/images/news/news4.png",
+      "title": "Saving the Soul of Nepal",
+      "meta_disc": "IRD campaigns to preserve and promote Nepal's rich cultural heritage.",
+      "link": "#",
+      "description": "Join IRD's mission to protect Nepal's cultural identity through grassroots campaigns and preservation efforts."
+    },
+    {
+      "id": 5,
+      "image": "/assets/images/news/news5.png",
+      "title": "From Classrooms to Communities",
+      "meta_disc": "IRD launches immersive learning trips blending education, culture, and exploration.",
+      "link": "#",
+      "description": "See how IRD connects students with communities to foster experiential learning and social growth."
+    },
+    {
+      "id": 6,
+      "image": "/assets/images/news/news6.png",
+      "title": "Digital Tools, Real Change",
+      "meta_disc": "Apps like Krishimitra and Surakshya are transforming rural life in Nepal.",
+      "link": "#",
+      "description": "Learn how apps developed by IRD are delivering tangible change in rural livelihoods and safety."
+    }]
+ }
+  
