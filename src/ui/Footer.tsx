@@ -6,6 +6,8 @@ import { AiFillInstagram } from "react-icons/ai";
 import { AiOutlineGlobal } from "react-icons/ai";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="flex w-full bg-[#850d09] justify-center items-center p-20 py-[5rem] max-md:p-4 max-md:py-8">
       <div className="w-full max-w-[1440px]">
@@ -173,7 +175,7 @@ const Footer = () => {
 
         <div className="w-full flex justify-center max-md:p-2">
           <p className="text-[#fefefe] text-lg max-md:text-sm">
-            Copyright 2025 Institute For Rural Development
+            © Copyright {currentYear} Institute For Rural Development
           </p>
         </div>
       </div>
