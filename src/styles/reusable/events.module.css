@@ -92,6 +92,81 @@
   margin-top: 1.2rem;
 }
 
+.toggleContainer {
+  display: flex;
+  gap: 3rem;
+  margin: 2rem 0;
+  font-family: inherit;
+}
+
+.toggleButton {
+  padding: 0.75rem 1.5rem;
+  background: transparent;
+  font-size: var(--sub-heading-font-size);
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+
+.activeToggle {
+  background-color: var(--accent-color);
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.inactiveToggle:hover {
+  background-color: rgba(139, 0, 0, 0.1);
+}
+
+/* No Events Message */
+.noEvents {
+  padding: 2rem 0;
+  width: 100%;
+  font-style: italic;
+  color: #666;
+  font-family: inherit;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  font-family: inherit;
+}
+
+.pageButton {
+  padding: 0.5rem 0.75rem;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+
+.pageButton:hover:not(:disabled) {
+  background-color: #e0e0e0;
+}
+
+.pageButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.activePage {
+  background-color: var(--accent-color);
+  color: #fff;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .eventPage{
     margin-top: 5rem;
